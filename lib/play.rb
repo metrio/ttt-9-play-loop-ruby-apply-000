@@ -38,8 +38,10 @@ end
 # Define your play method below
 
 def play(board)
-  game_end = 0
-  until game_end = 9
+  
+    game_end = 0
+  
+  until game_end == 9
   turn(board)
   game_end += 1
 end

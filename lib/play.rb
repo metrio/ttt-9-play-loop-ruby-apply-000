@@ -41,7 +41,7 @@ def play(board)
   
     game_end = 0
   
-  until game_end == 9
+  until game_end == 8
     turn(board)
       game_end += 1
 end

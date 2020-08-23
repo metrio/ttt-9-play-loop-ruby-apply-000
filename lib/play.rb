@@ -44,4 +44,5 @@ def play(board)
   until game_end == 8
     turn(board)
       game_end += 1
+  end
 end
